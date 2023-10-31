@@ -3,7 +3,7 @@
 신입 웹퍼블리셔 최지원의 포트폴리오 사이트입니다.
 
 ## 완성작 보기 
-미리보기 : 
+미리보기 : https://portfolio-jiwon.netlify.app/
 
 ## 사용 스택
 - react(https://ko.legacy.reactjs.org/) 를 사용하여 사이트를 번들링하고 관리합니다.
