@@ -1,6 +1,4 @@
-import iconGithub from "../assets/img/ico_github.png"
-import iconRight from "../assets/img/ico_right.png"
-
+/* skill icon */
 import skill01 from "../assets/img/ico_html.png";
 import skill02 from "../assets/img/ico_css.png";
 import skill03 from "../assets/img/ico_js.png";
@@ -9,6 +7,7 @@ import skill05 from "../assets/img/ico_git.png";
 import skill06 from "../assets/img/ico_react.png";
 import skill07 from "../assets/img/ico_figma.png";
 
+/* site img */
 import site01 from "../assets/img/site_port.jpg";
 import site02 from "../assets/img/site_kps.jpg";
 import site03 from "../assets/img/site_dell.jpg";
@@ -30,21 +29,6 @@ export const headerNav = [
         url: "#contact",
     },
 ];
-
-export const introText = [
-    {
-        link: "https://github.com/jj2113",
-        img: iconGithub,
-        desc: "깃허브",
-        title: "GitHub 바로가기",
-    },
-    {
-        link: "https://blog.naver.com/chemi9702",
-        img: iconRight,
-        desc: "오른쪽화살표",
-        title: "블로그 바로가기",
-    },
-]
 
 export const SkillText = [
     {
@@ -147,10 +131,6 @@ export const footerText = [
     {
         link: "https://github.com/jj2113",
         title: "Github"
-    },
-    {
-        link: "https://blog.naver.com/chemi9702",
-        title: "Blog"
     },
     {
         link: "mailto:chemi9702@naver.com",

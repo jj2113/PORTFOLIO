@@ -1,8 +1,9 @@
 import React, { useEffect } from "react";
-import { introText } from "../constants";
 import profile from "../assets/img/profile.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import iconRight from "../assets/img/ico_right.png"
+import resume from "../assets/img/최지원_입사지원서.hwp"
 
 const Intro = () => {
 
@@ -24,17 +25,11 @@ const Intro = () => {
                         <li>HTML, CSS, JAVAScript를 다루며 웹 표준과 웹 접근성을 고려하고 반응형으로 움직이는 웹페이지를 공부중입니다</li>
                         <li>기본기가 중요하다는 생각으로 반복학습과 복습을 하고 부족한 부분을 스스로 찾아 발전하는 퍼블리셔가 되고싶습니다!</li>
                     </ul>
-                    <div className="icon">
-                        {introText.map((intro, i) => (
-                            <a
-                                href={intro.link}
-                                key={i}
-                                target='_blank' rel='noopener noreferrer'
-                            >
-                                <img src={intro.img} alt={intro.desc} />
-                                {intro.title}
-                            </a>
-                        ))}
+                    <div className="resume">
+                             <a href={resume} download>
+                                <img src={iconRight} alt="자기소개서" />
+                                자기소개서 다운로드
+                            </a>                    
                     </div>
                 </div>
             </div>
