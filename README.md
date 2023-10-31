@@ -8,7 +8,7 @@
 ## 사용 스택
 - react(https://ko.legacy.reactjs.org/) 를 사용하여 사이트를 번들링하고 관리합니다.
 - gsap(https://greensock.com/gsap) 를 이용하여 패럴랙스 효과를 줍니다.
-- lenis(https://lenis.studiofreight.com/) 를 이용하여 스므스 효과를 구현합니다.
+- lenis(https://lenis.studiofreight.com/) 를 이용하여 smooth 효과를 구현합니다.
 - scss(https://sass-lang.com/) 를 사용하여 코드의 재활용성을 올리고, 가독성을 높였습니다.
 - netlify(https://www.netlify.com/) 를 통해 사이트를 배포합니다.
 - git(https://github.com/) 을 사용하여 파일을 관리합니다.
