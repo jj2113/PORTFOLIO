@@ -85,7 +85,7 @@ export const siteText = [
         desc: "제작 : 7일, 코딩, 디자인 개인 100% 작업",
         skill: "REACT, SCSS, HTML, CSS, JAVASCRIPT",
         code: "https://github.com/jj2113/PORTFOLIO",
-        view: "https://portfoliosj-react.netlify.app",
+        view: "https://portfolio-jiwon.netlify.app/",
     },
     {
         img: site02,
