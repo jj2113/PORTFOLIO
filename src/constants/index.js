@@ -9,7 +9,11 @@ import skill05 from "../assets/img/ico_git.png";
 import skill06 from "../assets/img/ico_react.png";
 import skill07 from "../assets/img/ico_figma.png";
 
-import site01 from "../assets/img/site01.jpg";
+import site01 from "../assets/img/site_port.jpg";
+import site02 from "../assets/img/site_kps.jpg";
+import site03 from "../assets/img/site_dell.jpg";
+import site04 from "../assets/img/site_mouseEffect.jpg";
+import site05 from "../assets/img/site_andar.jpg";
 
 
 export const headerNav = [
@@ -45,11 +49,11 @@ export const introText = [
 export const SkillText = [
     {
         img: skill01,
-        content: "유효성 문제 없이 HTML5 웹접근성에 올바르며 모든 사람들이 \n 편하게 이용할 수 있는 HTML 구조를 구성할 수 있습니다."
+        content: "웹표준, 웹접근성에 올바르며 모든 사람들이 편하게 이용할 수 있는 HTML 구조를 마크업하고  \n 반응형/적응형 웹사이트를 구현할 수 있습니다. "
     },
     {
         img: skill02,
-        content: " CSS3 다양한 최신 트렌드 디자인과 애니메이션을 구성하며 JAVASCRIPT와 \n 연동할 수 있는 디자인을 제작할 수 있습니다."
+        content: " 다양한 최신 트렌드 디자인과 애니메이션을 구성하며 JAVASCRIPT와 \n 연동할 수 있는 디자인을 제작할 수 있습니다."
     },
     {
         img: skill03,
@@ -57,67 +61,67 @@ export const SkillText = [
     },
     {
         img: skill04,
-        content: "유효성 문제 없이 HTML5 웹접근성에 올바르며 모든 사람들이 편하게 이용할 수 있는 HTML 구조를 구성할 수 있습니다. "
+        content: "CSS 전처리기인 SCSS를 사용하여  모듈화, 믹스인, 상속 등을 이용한 개발 및 \n 코드의 재활용성을 올리고, 가독성을 높일 수 있습니다. "
     },
     {
         img: skill05,
-        content: " git 명령어를 활용한 gitHub 프로젝트 관리를 진행할 수 있습니다."
+        content: " git 명령어를 활용하여 gitHub에 진행중인 프로젝트를 푸쉬하고 \n 소스 코드를 관리할 수 있습니다."
     },
     {
         img: skill06,
-        content: "유효성 문제 없이 HTML5 웹접근성에 올바르며 모든 사람들이 편하게 이용할 수 있는 HTML 구조를 구성할 수 있습니다. "
+        content: "리액트의 함수형 컴포넌트 단위의 마크업 개발을 할 수 있습니다. \n  React Hooks, Router 등에 대해 공부하고 있습니다."
     },
     {
         img: skill07,
-        content: "피그마를 활용한 와이어프레임, 프로토타입과 피그잼을 활용한 아이디어 기획 구조 등을 \n 활용하여 웹디자인을 기획, 제작할 수 있습니다."
+        content: "피그마를 사용하여 와이어프레임, 프로토타입을 활용한 아이디어 기획 구조 등 \n 웹디자인을 기획, 제작할 수 있습니다."
     },
 ]
 
 export const siteText = [
     {
         img: site01,
-        title01: "naver Whale",
-        title02: "클론코딩",
+        title01: "PORTFOLIO-React",
+        title02: "사이트",
         desc: "제작 : 7일, 코딩, 디자인 개인 100% 작업",
-        skill: "html, css, javascript",
-        code: "https://github.com/jj2113",
+        skill: "REACT, SCSS, HTML, CSS, JAVASCRIPT",
+        code: "https://github.com/jj2113/PORTFOLIO",
         view: "https://portfoliosj-react.netlify.app",
     },
     {
-        img: site01,
-        title01: "naver Whale",
-        title02: "코딩",
+        img: site02,
+        title01: "한전 KPS",
+        title02: "리디자인",
         desc: "제작 : 7일, 코딩, 디자인 개인 100% 작업",
-        skill: "html, css, javascript",
-        code: "https://github.com/kimsangjunv1/-React-Portfolio",
-        view: "https://portfoliosj-react.netlify.app",
+        skill: "HTML, CSS, JAVASCRIPT",
+        code: "https://github.com/jj2113/kps-site",
+        view: "https://jj2113.github.io/kps-site/",
     },
     {
-        img: site01,
-        title01: "naver Whale",
-        title02: "코딩",
+        img: site03,
+        title01: "DELL Technologies",
+        title02: "리디자인",
         desc: "제작 : 7일, 코딩, 디자인 개인 100% 작업",
-        skill: "html, css, javascript",
-        code: "https://github.com/kimsangjunv1/-React-Portfolio",
-        view: "https://portfoliosj-react.netlify.app",
+        skill: "HTML, CSS, JAVASCRIPT",
+        code: "https://github.com/jj2113/dell-site",
+        view: "https://jj2113.github.io/dell-site/",
     },
     {
-        img: site01,
-        title01: "naver Whale",
-        title02: "코딩",
-        desc: "제작 : 7일, 코딩, 디자인 개인 100% 작업",
-        skill: "html, css, javascript",
-        code: "https://github.com/kimsangjunv1/-React-Portfolio",
-        view: "https://portfoliosj-react.netlify.app",
+        img: site04,
+        title01: "Mouse Effect",
+        title02: "연습 사이트",
+        desc: "제작 : 1일, 코딩 개인 100% 작업",
+        skill: "HTML, CSS, JAVASCRIPT",
+        code: "https://github.com/jj2113/mouse-site",
+        view: "https://jj2113.github.io/mouse-site/",
     },
     {
-        img: site01,
-        title01: "naver Whale",
-        title02: "코딩",
+        img: site05,
+        title01: "Andar",
+        title02: "모바일 앱 리디자인",
         desc: "제작 : 7일, 코딩, 디자인 개인 100% 작업",
-        skill: "html, css, javascript",
-        code: "https://github.com/kimsangjunv1/-React-Portfolio",
-        view: "https://portfoliosj-react.netlify.app",
+        skill: "HTML, CSS, JAVASCRIPT, JQUERY",
+        code: "https://github.com/jj2113/andar-site",
+        view: "https://jj2113.github.io/andar-site/",
     },
 ]
 
