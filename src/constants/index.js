@@ -133,7 +133,7 @@ export const footerText = [
         title: "Github"
     },
     {
-        link: "mailto:chemi9702@naver.com",
+        link: "mailto:jj_2113@naver.com",
         title: "E-mail"
     },
 ]
