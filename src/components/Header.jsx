@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { headerNav } from "../constants";
 
 const Header = () => {
-    /* 탭버튼 */
+    /* 메뉴 탭버튼 */
     const [Tab, setTab] = useState(0);
     const selectTab = (index) => {
         setTab(index);

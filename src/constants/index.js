@@ -112,8 +112,8 @@ export const siteText = [
 export const contactText = [
     {
         title: "E-mail",
-        link: "mailto:chemi9702@naver.com",
-        linkTitle: "chemi9702@naver.com"
+        link: "mailto:jj_2113@naver.com",
+        linkTitle: "jj_2113@naver.com"
     },
     {
         title: "GitHub",
